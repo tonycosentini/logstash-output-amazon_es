@@ -1,6 +1,6 @@
 require 'cgi'
 
-module LogStash; module Outputs; class ElasticSearch;
+module LogStash; module Outputs; class AwsElasticSearch;
   module HttpClientBuilder
     def self.build(logger, hosts, params)
       client_settings = {

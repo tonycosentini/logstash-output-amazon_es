@@ -1,6 +1,6 @@
 require "logstash/outputs/amazon_es/template_manager"
 
-module LogStash; module Outputs; class ElasticSearch;
+module LogStash; module Outputs; class AwsElasticSearch;
   module Common
     attr_reader :client, :hosts
 

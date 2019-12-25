@@ -83,7 +83,7 @@ require "forwardable"
 # For requests compression, regardless of the Elasticsearch version, users have to enable `http_compression` 
 # setting in their Logstash config file.
 #
-class LogStash::Outputs::ElasticSearch < LogStash::Outputs::Base
+class LogStash::Outputs::AwsElasticSearch < LogStash::Outputs::Base
   declare_threadsafe!
 
   require "logstash/outputs/amazon_es/http_client"

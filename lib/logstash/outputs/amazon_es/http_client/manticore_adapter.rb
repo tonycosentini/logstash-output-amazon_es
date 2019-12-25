@@ -3,7 +3,7 @@ require 'cgi'
 require 'aws-sdk-core'
 require 'uri'
 
-module LogStash; module Outputs; class ElasticSearch; class HttpClient;
+module LogStash; module Outputs; class AwsElasticSearch; class HttpClient;
   DEFAULT_HEADERS = { "content-type" => "application/json" }
 
   CredentialConfig = Struct.new(

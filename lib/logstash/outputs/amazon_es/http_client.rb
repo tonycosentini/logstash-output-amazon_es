@@ -7,7 +7,7 @@ require 'cgi'
 require 'zlib'
 require 'stringio'
 
-module LogStash; module Outputs; class ElasticSearch;
+module LogStash; module Outputs; class AwsElasticSearch;
   # This is a constant instead of a config option because
   # there really isn't a good reason to configure it.
   #
